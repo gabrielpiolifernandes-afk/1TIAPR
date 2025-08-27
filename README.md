@@ -1,4 +1,4 @@
 # 1TIAPR
 Para as aulas de python
 
-pertece ao aluno 
+//pertence ao aluno gabriel pioli/ katatal
