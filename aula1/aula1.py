@@ -1,8 +1,7 @@
 #todo texto tem que estar dentro de aspas 
 #o resto so pode ser numeros ou True ou False
-var= 1
-var2= 10.4
-var= 15.2
+a= 0
+b= 1
 
 banana= 10
 
@@ -18,5 +17,10 @@ booleano = False
 lista = ["macarrao","pao","arroz", "molho"]
 lista2= [1,2,3,4]
 
-resultado = var + var2
-print(resultado)
+
+while a <100:
+    print(a)
+    a, b == b, a+b
+print("nome: ", nome, a)
+
+
