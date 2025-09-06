@@ -20,3 +20,19 @@ lista2= [1,2,3,4]
 
 resultado = var + var2
 print(resultado)
+
+#and, usado em ambas opções tem que ser verdadeiras
+
+#or, usado em uma verdadeira ou uma negativa
+
+#not, usado para ambas opçoes negativas
+
+# == é pra igualdade, = é pra atribuição
+
+# != diferente ou diferença
+
+#if = se tal coisa
+
+#else = se nao tal coisa
+
+#elif = entre o if e o else
