@@ -1,8 +1,7 @@
 #todo texto tem que estar dentro de aspas 
 #o resto so pode ser numeros ou True ou False
-var= 1
-var2= 10.4
-var= 15.2
+a= 0
+b= 1
 
 banana= 10
 
@@ -18,6 +17,7 @@ booleano = False
 lista = ["macarrao","pao","arroz", "molho"]
 lista2= [1,2,3,4]
 
+<<<<<<< HEAD:tipos.py
 resultado = var + var2
 print(resultado)
 
@@ -36,3 +36,12 @@ print(resultado)
 #else = se nao tal coisa
 
 #elif = entre o if e o else
+=======
+
+while a <100:
+    print(a)
+    a, b == b, a+b
+print("nome: ", nome, a)
+
+
+>>>>>>> 2f0567aaf50dec09dfa28702dda386ef72d33971:aula1/aula1.py
