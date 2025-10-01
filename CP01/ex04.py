@@ -20,8 +20,8 @@ for notas in lista_de_nota:
 
 # for notas in lista_de_nota:
 #     notas=()
-# if notas > 6:
 #     print("Voce Passou (=")
+# if notas > 6:
 # elif notas == 6:
 #     print("Na risca em!")
 # elif notas == 0:

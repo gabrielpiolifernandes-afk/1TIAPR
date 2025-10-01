@@ -3,14 +3,13 @@ lista=[
     [3,4]
 ]
 
-lista2=[
-    [5,6],
-    [7,8]
-]
-
+escalar = 3
 lista_resultado=[]
 
-for elemento in lista range(len(lista)):
-    for j in elemento
-        print(10+elemento=)
-    print
+for linha in range(len(lista)):
+    linha_montar = []
+    for coluna in range(len(lista[linha])):
+        linha_montar.append(lista[linha][coluna]*escalar)
+    lista_resultado.append(linha_montar)
+
+print(lista_resultado)
