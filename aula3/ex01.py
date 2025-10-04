@@ -1,15 +1,15 @@
-lista=[
+matriz=[
     [1,2],
     [3,4]
 ]
 
 escalar = 3
-lista_resultado=[]
+resultado=[]
 
-for linha in range(len(lista)):
-    linha_montar = []
-    for coluna in range(len(lista[linha])):
-        linha_montar.append(lista[linha][coluna]*escalar)
-    lista_resultado.append(linha_montar)
+for linha in range(len(matriz)):
+    linha_do_resuldato = []
+    for coluna in range(len(matriz[linha])):
+        linha_do_resuldato.append(matriz[linha][coluna]*escalar)
+    resultado.append(linha_do_resuldato)
 
-print(lista_resultado)
+print(resultado)
