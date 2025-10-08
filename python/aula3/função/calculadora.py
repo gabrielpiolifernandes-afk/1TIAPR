@@ -1,4 +1,5 @@
-
+a=int(input("digite um numero: "))
+b=int(input("digite um numero: "))
 def soma (a, b):
     return a + b
 def subtração (a,b):
@@ -11,3 +12,5 @@ def divizão (a,b):
     else:
         return a/b
 
+resultado = divizão(a,b)
+print(resultado)
