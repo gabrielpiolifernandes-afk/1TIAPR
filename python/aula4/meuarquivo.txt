@@ -1,0 +1,3 @@
+ola mundo!
+Este é um arquivo de texto.
+Criado por cleitin distruido de nucleo fundido

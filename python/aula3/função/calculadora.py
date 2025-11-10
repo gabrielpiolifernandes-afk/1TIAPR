@@ -14,3 +14,4 @@ def divizão (a,b):
 
 resultado = divizão(a,b)
 print(resultado)
+print("hello word!")
