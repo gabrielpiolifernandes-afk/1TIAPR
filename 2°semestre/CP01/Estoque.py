@@ -2,7 +2,7 @@ import json
 
 arquivo = "eletronicos.json"
 
-def leitura():
+def Leitura():
     with open(arquivo, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -11,7 +11,7 @@ def salvar_dados(dados):
         json.dump(dados, f, indent=4, ensure_ascii=False)
 
 def listar_produtos():
-    dados = leitura()
+    dados = Leitura()
 
     print("\nLISTA DE PRODUTOS\n")
 
@@ -22,9 +22,21 @@ def listar_produtos():
             f"Componente: {produto['componente']}")
 
 def adicionar_produto():
-    dados = leitura()
+    dados = Leitura()
+    
+    while True:
+        try:
+            id = int(input("ID: "))
+            clientes_existentes = Leitura()
+            ids_existentes = [c['id'] for c in clientes_existentes]
 
-    id = int(input("ID: "))
+            if id in ids_existentes:
+                print("ID já cadastrado! Digite um ID diferente.")
+            else:
+                break
+        except ValueError:
+            print("Digite um número válido para o ID.")
+
     nome = input("Nome: ")
     preco = float(input("Preço: "))
     estoque = int(input("Estoque: "))
@@ -53,21 +65,27 @@ def adicionar_produto():
     print("Produto adicionado com sucesso!")
 
 def remover_produto():
-    dados = leitura()
+    
+    dados = Leitura()  
 
     id_produto = int(input("Digite o ID do produto que deseja remover: "))
 
-    for produto in dados:
-        if produto["id"] == id_produto:
-            dados.remove(produto)
-            salvar_dados(dados)
-            print("Produto removido com sucesso!")
-            return
+    id_produto_confirmação = input("Você tem certeza? (S/N): ").strip().upper()
 
-    print("Produto não encontrado.")
+    if id_produto_confirmação == 'S':  
+        for produto in dados:
+            if produto["id"] == id_produto:
+                dados.remove(produto)
+                salvar_dados(dados)  
+                
+                print("Produto removido com sucesso!")
+                return  
+        print("Produto não encontrado.")
+    else:
+        print("Remoção cancelada.")
 
 def alerta():
-    dados = leitura()
+    dados = Leitura()
     estoque_baixo = False
 
     for produto in dados:
@@ -79,7 +97,7 @@ def alerta():
         print("🟢Todos os produtos estão com estoque suficiente.🟢")
 
 def atualizar_produto():
-    dados = leitura()
+    dados = Leitura()
 
     id_produto = int(input("Digite o ID do produto: "))
 

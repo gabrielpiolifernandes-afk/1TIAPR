@@ -12,7 +12,7 @@ class Cliente:
         self.cep = cep
         self.senha = senha
 
-def leitura_de_dados():
+def Leitura_de_dados():
     if os.path.exists(arquivo):
         with open(arquivo, "r", encoding="utf-8") as f:
             try:
@@ -21,15 +21,14 @@ def leitura_de_dados():
                 return []
     return []
 
-
-def cadastro():
+def Cadastro():
     #DADOS
     while True:
         try:
             while True:
                 try:
                     id = int(input("ID: "))
-                    clientes_existentes = leitura_de_dados()
+                    clientes_existentes = Leitura_de_dados()
                     ids_existentes = [c['id'] for c in clientes_existentes]
 
                     if id in ids_existentes:
@@ -100,7 +99,7 @@ def cadastro():
                         while True:
                             try:
                                 novo_id = int(input("Novo ID: "))
-                                ids_existentes = [c['id'] for c in leitura_de_dados()]
+                                ids_existentes = [c['id'] for c in Leitura_de_dados()]
                                 if novo_id in ids_existentes:
                                     print("ID já cadastrado! Digite outro.")
                                 else:
@@ -158,7 +157,7 @@ def cadastro():
 #.upper() para converter para maiúsculas
 #isdigit() para verificar se a string contém apenas dígitos
 
-def salvar_dados(cliente):
+def Salvar_dados(cliente):
     # Se o arquivo não existir, criamos uma lista vazia
     if os.path.exists(arquivo):
         with open(arquivo, "r", encoding="utf-8") as f:
@@ -219,8 +218,8 @@ while True:
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        cliente = cadastro()
-        salvar_dados(cliente)
+        cliente = Cadastro()
+        Salvar_dados(cliente)
         print("Cliente cadastrado com sucesso!")
 
     elif opcao == "2":

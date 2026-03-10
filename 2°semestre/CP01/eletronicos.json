@@ -3,7 +3,7 @@
         "id": 1,
         "nome": "Mouse Gamer",
         "preco": 89,
-        "estoque": 40,
+        "estoque": 20,
         "marca": "Logitech",
         "fornecedor": "TechDistrib",
         "componente": "eletronico",

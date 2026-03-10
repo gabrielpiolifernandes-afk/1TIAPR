@@ -1,18 +1,23 @@
-from Cadastro_de_produtos import ProdutoEletronico
-from Cliente import cadastro, salvar_dados, leitura_de_dados
+# from Cadastro_de_produtos import ProdutoEletronico
+# from Cliente import Cadastro, Salvar_dados, Leitura_de_dados
+# from Vendas import Comprar 
 import json
 
 while True:
     print("\n===MENU PRINCIPAL===")
     print("1. Tela de cadastro")
-    print("2. - Sair")
+    print("2. - Compra")
+    print("3. - Sair")
     opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
-        cliente = cadastro()
+        cliente = Cadastro()
         print("Cliente cadastrado com sucesso!")
     
-    elif opcao == "2":
+    if opcao == "2":
+        compra = Comprar()
+
+    elif opcao == "3":
         print("Saindo do sistema...")
         break
 
