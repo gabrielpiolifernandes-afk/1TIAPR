@@ -1,0 +1,115 @@
+[
+    {
+        "tema": "Arte Moderna",
+        "titulo": "La Chola Poblete: Pop andino",
+        "andar": "1º Subsolo",
+        "tempo": "aprox. 30 min"
+    },
+    {
+        "tema": "Arte Moderna",
+        "titulo": "Minerva Cuevas: Ecologia social",
+        "andar": "1º Subsolo",
+        "tempo": "aprox. 35 min"
+    },
+    {
+        "tema": "Arte Moderna",
+        "titulo": "Sandra Gamarra Heshiki: Réplica",
+        "andar": "1º Subsolo",
+        "tempo": "aprox. 40 min"
+    },
+    {
+        "tema": "Arte Moderna",
+        "titulo": "Coletivo: Acervo em Transformação",
+        "andar": "2º Andar",
+        "tempo": "aprox. 60 min"
+    },
+
+    {
+        "tema": "Arte Contemporânea",
+        "titulo": "Ivan Argote: O Outro, Eu e os Outros",
+        "andar": "1º Subsolo",
+        "tempo": "aprox. 30 min"
+    },
+    {
+        "tema": "Arte Contemporânea",
+        "titulo": "Diversos artistas: Histórias LGBTQIA+",
+        "andar": "1º Subsolo",
+        "tempo": "aprox. 30 min"
+    },
+    {
+        "tema": "Arte Contemporânea",
+        "titulo": "Clara Ianni: Sala de Vídeo",
+        "andar": "2º Subsolo",
+        "tempo": "aprox. 20 min"
+    },
+    {
+        "tema": "Arte Contemporânea",
+        "titulo": "André Taniki Yanomami: Ser imagem",
+        "andar": "2º Subsolo",
+        "tempo": "aprox. 25 min"
+    },
+
+    {
+        "tema": "Arte Europeia",
+        "titulo": "Claude Monet: Impressões da Natureza",
+        "andar": "3º Andar",
+        "tempo": "aprox. 45 min"
+    },
+    {
+        "tema": "Arte Europeia",
+        "titulo": "Vincent van Gogh: Cores e Emoções",
+        "andar": "3º Andar",
+        "tempo": "aprox. 40 min"
+    },
+    {
+        "tema": "Arte Europeia",
+        "titulo": "Pablo Picasso: Formas e Fragmentos",
+        "andar": "3º Andar",
+        "tempo": "aprox. 50 min"
+    },
+    {
+        "tema": "Arte Europeia",
+        "titulo": "Salvador Dalí: Sonhos Surrealistas",
+        "andar": "4º Andar",
+        "tempo": "aprox. 35 min"
+    },
+
+    {
+        "tema": "História do Brasil",
+        "titulo": "Brasil Colonial: Arte e Poder",
+        "andar": "2º Andar",
+        "tempo": "aprox. 35 min"
+    },
+    {
+        "tema": "História do Brasil",
+        "titulo": "Independência e Identidade Nacional",
+        "andar": "2º Andar",
+        "tempo": "aprox. 40 min"
+    },
+
+    {
+        "tema": "Identidade e Cultura",
+        "titulo": "Culturas Afro-brasileiras",
+        "andar": "1º Andar",
+        "tempo": "aprox. 30 min"
+    },
+    {
+        "tema": "Identidade e Cultura",
+        "titulo": "Memória e Resistência",
+        "andar": "1º Andar",
+        "tempo": "aprox. 25 min"
+    },
+
+    {
+        "tema": "Arte Indígena",
+        "titulo": "Abel Rodríguez: A árvore da vida",
+        "andar": "2º Subsolo",
+        "tempo": "aprox. 20 min"
+    },
+    {
+        "tema": "Arte Indígena",
+        "titulo": "Cosmologias Indígenas",
+        "andar": "2º Subsolo",
+        "tempo": "aprox. 30 min"
+    }
+]
